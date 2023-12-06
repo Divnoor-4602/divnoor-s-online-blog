@@ -49,7 +49,7 @@ def load_user(user_id):
 
 
 ## CONNECT TO DB
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///blog.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://blog_users_pctm_user:suYC4YdkX4QUGPSGqMQNiXw4G3G5w28l@dpg-clo89bf5felc73a3v5l0-a/blog_users_pctm"
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///users.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
